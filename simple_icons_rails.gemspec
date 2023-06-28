@@ -8,17 +8,17 @@ Gem::Specification.new do |spec|
   spec.authors = ["spaquet"]
   spec.email = ["176050+spaquet@users.noreply.github.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary     = 'A Rails gem for importing Simple Icons'
+  spec.description = 'A gem that allows you to quickly import Simple Icons into your Rails project.'
+  spec.homepage = "https://github.com/the-pew-inc/simple_icons"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/the-pew-inc/simple_icons"
+  spec.metadata["changelog_uri"] = "https://github.com/the-pew-inc/simple_icons/blob/main/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
