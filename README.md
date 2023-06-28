@@ -40,6 +40,7 @@ To render Simple Icons in your Rails views, you can utilize the `simpleicons` he
 
 ```erb
 <%= simpleicons('github', width: 24, height: 24, class: 'custom-class', style: 'color: red;') %>
+```
 
 
 ## Development
