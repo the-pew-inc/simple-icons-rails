@@ -3,22 +3,22 @@
 require_relative "lib/simple_icons_rails/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "simple_icons_rails"
+  spec.name = "simple-icons-rails"
   spec.version = SimpleIconsRails::VERSION
   spec.authors = ["spaquet"]
   spec.email = ["176050+spaquet@users.noreply.github.com"]
 
   spec.summary     = 'A Rails gem for importing Simple Icons'
   spec.description = 'A gem that allows you to quickly import Simple Icons into your Rails project.'
-  spec.homepage = "https://github.com/the-pew-inc/simple_icons"
+  spec.homepage = "https://github.com/the-pew-inc/simple-icons-rails"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/the-pew-inc/simple_icons"
-  spec.metadata["changelog_uri"] = "https://github.com/the-pew-inc/simple_icons/blob/main/CHANGELOG.md"
+  spec.metadata["source_code_uri"] = "https://github.com/the-pew-inc/simple-icons-rails"
+  spec.metadata["changelog_uri"] = "https://github.com/the-pew-inc/simple-icons-rails/blob/main/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
