@@ -16,10 +16,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Set up Ruby 2.7
+      - name: Set up Ruby 2.7.4
         uses: actions/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: 2.7.4
+      - run: bundle install
 
       - name: Publish to GPR
         run: |
