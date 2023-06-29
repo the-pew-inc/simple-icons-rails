@@ -24,14 +24,6 @@ To use the Simple Icons Rails Gem, follow these steps:
     bundle install
     ```
 
-3. Run the rake task to import the Simple Icons into your Rails project:
-
-    ```shell
-    bundle exec rake simple_icons:import
-    ```
-
-   This task will download the icons from the Simple Icons GitHub repository and save them to your project's asset directory (e.g., `app/assets/icons`).
-
 That's it! The Simple Icons Rails Gem is now installed and ready to be used in your Rails application.
 
 ## Usage
@@ -39,7 +31,7 @@ That's it! The Simple Icons Rails Gem is now installed and ready to be used in y
 To render Simple Icons in your Rails views, you can utilize the `simpleicons` helper method provided by the gem. Here's an example of how to use it:
 
 ```erb
-<%= simpleicons('github', width: 24, height: 24, class: 'custom-class', style: 'color: red;') %>
+<%= simple_icon('github', 'black', class: 'custom-class', style: 'color: red;') %>
 ```
 
 Replace 'github' with the name of the specific icon you want to render. You can also customize the icon's appearance by passing additional options like width, height, class, and style. Use [https://simpleicons.org/](https://simpleicons.org/) to browse available icons.
