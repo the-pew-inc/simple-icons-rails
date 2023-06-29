@@ -31,12 +31,22 @@ That's it! The Simple Icons Rails Gem is now installed and ready to be used in y
 To render Simple Icons in your Rails views, you can utilize the `simpleicons` helper method provided by the gem. Here's an example of how to use it:
 
 ```erb
-<%= simple_icon('github', 'black', class: 'custom-class', style: 'color: red;') %>
+<%= simple_icon('[ICON SLUG]', '[COLOR]', html_options = {}) %>
 ```
 
 Replace 'github' with the name of the specific icon you want to render. You can also customize the icon's appearance by passing additional options like width, height, class, and style. Use [https://simpleicons.org/](https://simpleicons.org/) to browse available icons.
 
-With the Simple Icons Rails Gem, you can easily incorporate Simple Icons into your Rails application and enhance the visual appeal of your project.
+[COLOR] is optional, and can be replaced by the [hex colors](https://developer.mozilla.org/en-US/docs/Web/CSS/hex-color) or [CSS keywords](https://www.w3.org/wiki/CSS/Properties/color/keywords) of the icon you want to you use. The color is defaulted to the HEX color of the icon shown in [simpleicons.org](https://simpleicons.org/) website. For example:
+
+```erb
+<%= simple_icon('github') %>
+<%= simple_icon('github', 'red') %>
+<%= simple_icon('github', 'black', class: 'custom-class', style: 'color: red;') %>
+<%= simple_icon('amazon', 'red', class: 'icon', height: '32', width: '32') %>
+<%= simple_icon('github', '0cf', class: 'icon', height: '32', width: '32') %>
+<%= simple_icon('simpleicons', '00ccff99', class: 'icon', height: '32', width: '32') %>
+```
+
 
 ## Development
 
