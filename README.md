@@ -6,7 +6,7 @@
 
 The Simple Icons Rails Gem is a Ruby gem designed for importing and using the icons from [Simple Icons](https://simpleicons.org/) in your Rails projects. Simple Icons provides a collection of SVG icons for various popular brands.
 
-This gem simplifies the process of importing and rendering Simple Icons in a Rails application, allowing you to easily include the icons in your views and customize their appearance.
+This gem simplifies the process of rendering Simple Icons in a Rails application, allowing you to easily include the icons in your views and customize their appearance. This gem is acting as a passthrough to Simple Icons CDN. The icons are not downloaded to your Rails application. This means that when a new icon is uploaded or an existing one updated, you can access it right away without having to update this gem. 
 
 For more information about Simple Icons, please visit their website: [https://simpleicons.org/](https://simpleicons.org/). You can also explore the Simple Icons GitHub repository at [https://github.com/simple-icons](https://github.com/simple-icons).
 
@@ -58,7 +58,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/simple_icons_rails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/simple_icons_rails/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/the-pew-inc/simple-icons-rails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/the-pew-inc/simple-icons-rails/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 
@@ -66,4 +66,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the SimpleIconsRails project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/simple_icons_rails/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the SimpleIconsRails project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/the-pew-inc/simple-icons-rails/blob/master/CODE_OF_CONDUCT.md).
