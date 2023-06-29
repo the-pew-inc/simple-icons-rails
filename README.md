@@ -42,6 +42,9 @@ To render Simple Icons in your Rails views, you can utilize the `simpleicons` he
 <%= simpleicons('github', width: 24, height: 24, class: 'custom-class', style: 'color: red;') %>
 ```
 
+Replace 'github' with the name of the specific icon you want to render. You can also customize the icon's appearance by passing additional options like width, height, class, and style. Use [https://simpleicons.org/](https://simpleicons.org/) to browse available icons.
+
+With the Simple Icons Rails Gem, you can easily incorporate Simple Icons into your Rails application and enhance the visual appeal of your project.
 
 ## Development
 

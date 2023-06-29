@@ -32,13 +32,19 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
+  spec.files = [
+    "lib/simple_icons_rails.rb",
+    "lib/simple_icons_rails/version.rb"
+  ]  
+
+  spec.add_runtime_dependency 'rails'
+  spec.add_development_dependency 'bundler', '~> 2.0'
+
+
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
+  # spec.add_dependency 'rails', '>= 5.0'
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
-
-  spec.add_dependency 'rails', '>= 5.0'
-  spec.add_dependency 'httparty'
-
 end
