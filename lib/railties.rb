@@ -1,4 +1,4 @@
-require 'simple_icons_rails'
+require 'simple-icons-rails'
 require 'rails'
 
 module SimpleIconsRails

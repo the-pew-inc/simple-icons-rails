@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "lib/simple_icons_rails/version"
+require_relative "lib/simple-icons-rails/version"
 
 Gem::Specification.new do |spec|
   spec.name = "simple-icons-rails"
@@ -33,8 +33,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.files = [
-    "lib/simple_icons_rails.rb",
-    "lib/simple_icons_rails/version.rb"
+    "lib/simple-icons-rails.rb",
+    "lib/simple-icons-rails/version.rb"
   ]  
 
   spec.add_runtime_dependency 'rails'

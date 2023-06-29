@@ -15,7 +15,7 @@ To use the Simple Icons Rails Gem, follow these steps:
 1. Add the gem to your Rails application's Gemfile:
 
     ```ruby
-    gem 'simple_icons_rails', '~> 0.1.0'
+    gem 'simple-icons-rails', '~> 0.1.0'
     ```
 
 2. Save the Gemfile and run the following command to install the gem:
