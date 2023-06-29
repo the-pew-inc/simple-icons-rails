@@ -35,7 +35,7 @@ Gem::Specification.new do |spec|
     "lib/simple-icons-rails/version.rb"
   ]  
 
-  spec.add_runtime_dependency "rails"
+  spec.add_runtime_dependency "rails", ">= 5.0", "< 8.0"
   spec.add_development_dependency "bundler", "~> 2.0"
 
 
