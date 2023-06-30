@@ -1,4 +1,17 @@
+# simple_icons_rails.rbs
+# See the writing guide of rbs: https://github.com/ruby/rbs#guides
+
+module SimpleIconsRails
+  extend ActiveSupport::Concern
+
+  def simple_icon(icon_slug: String, color: String = nil, html_options: Hash = {}) -> String
+  end
+end
+
+class ActionView::Base
+  include SimpleIconsRails
+end
+
 module SimpleIconsRails
   VERSION: String
-  # See the writing guide of rbs: https://github.com/ruby/rbs#guides
 end
