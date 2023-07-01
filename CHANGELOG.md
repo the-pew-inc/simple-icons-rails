@@ -8,7 +8,7 @@
 
 - Adding supported versions of Rails
 
-## [0.2.12] - 2023-06-30
+## [0.2.14] - 2023-06-30
 
 - Rename to simple_icons_rails to match Ruby gem conventions
 - Adding tests via minitest
