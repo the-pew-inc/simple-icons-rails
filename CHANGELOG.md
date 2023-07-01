@@ -19,3 +19,9 @@
 ## [0.2.16] - 2023-07-01
 
 - Updating the README file
+
+## [0.2.22] - 2023-07-01
+
+- Adding support for app/config/initializers/simple_icons.rb to override the default CDN
+- Updating the README file
+- Adding more test cases

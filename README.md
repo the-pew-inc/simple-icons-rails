@@ -53,6 +53,16 @@ Replace 'github' with the name of the specific icon you want to render. You can 
 <%= simple_icon('simpleicons', '00ccff99', class: 'icon', height: '32', width: '32') %>
 ```
 
+## Advanced configuration
+
+**Version 0.2 and above** You can add a file, `simple_icons.rb` in your Rails `app/config/initializers` folder to change the CDN. See example below for more details.
+
+```ruby
+# config/initializers/simple_icons.rb
+SimpleIconsRails.configure do |config|
+  config.cdn_url = "https://new-cdn-url.com/"
+end
+```
 
 ## Development
 
