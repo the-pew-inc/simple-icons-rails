@@ -2,6 +2,9 @@
 
 [![Gem Version](https://badge.fury.io/rb/simple-icons-rails.svg)](https://badge.fury.io/rb/simple-icons-rails)
 
+## IMPORTANT
+version 0.1.x `gem 'simple-icons-rails', '~> 0.1.0'`
+version 0.2.x `gem 'simple_icons_rails', '~> 0.2.0'` 
 ## Description
 
 The Simple Icons Rails Gem is a Ruby gem designed for importing and using the icons from [Simple Icons](https://simpleicons.org/) in your Rails projects. Simple Icons provides a collection of more than 2500 SVG icons for various popular brands. <img src="https://img.shields.io/badge/dynamic/json?color=informational&label=icons&prefix=%20&logo=simpleicons&query=%24.icons.length&url=https%3A%2F%2Fraw.githubusercontent.com%2Fsimple-icons%2Fsimple-icons%2Fdevelop%2F_data%2Fsimple-icons.json" alt="Number of icons currently in the library"/>
@@ -18,7 +21,7 @@ To use the Simple Icons Rails Gem, follow these steps:
 1. Add the gem to your Rails application's Gemfile:
 
     ```ruby
-    gem 'simple-icons-rails', '~> 0.2.0'
+    gem 'simple_icons_rails', '~> 0.2.0'
     ```
 
 2. Save the Gemfile and run the following command to install the gem:
