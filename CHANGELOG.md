@@ -15,3 +15,7 @@
 - Adding Rake task to test and build the gem
 - Updated RBS
 - Updated README
+
+## [0.2.16] - 2023-07-01
+
+- Updating the README file
