@@ -1,8 +1,9 @@
 PATH
   remote: .
   specs:
-    simple_icons_rails (0.2.12)
+    simple_icons_rails (0.2.20)
       rails (>= 5.0, < 8.0)
+      uri
 
 GEM
   remote: https://rubygems.org/
@@ -151,6 +152,7 @@ GEM
     timeout (0.4.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
+    uri (0.12.2)
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
