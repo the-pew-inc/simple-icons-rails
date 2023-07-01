@@ -3,7 +3,7 @@
 [![Gem Version](https://badge.fury.io/rb/simple-icons-rails.svg)](https://badge.fury.io/rb/simple-icons-rails)
 
 ## IMPORTANT
-version 0.1.x `gem 'simple-icons-rails', '~> 0.1.0'`
+version 0.1.x `gem 'simple-icons-rails', '~> 0.1.0'`<br/>
 version 0.2.x `gem 'simple_icons_rails', '~> 0.2.0'` 
 ## Description
 
