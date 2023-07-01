@@ -8,11 +8,10 @@
 
 - Adding supported versions of Rails
 
-## [0.1.32] - 2023-06-30
+## [0.2.12] - 2023-06-30
 
-- Adding supported versions of Action View
-- Adding test via minitest
+- Rename to simple_icons_rails to match Ruby gem conventions
+- Adding tests via minitest
 - Adding Rake task to test and build the gem
-- Adding a parameter to control the CDN url
 - Updated RBS
 - Updated README
