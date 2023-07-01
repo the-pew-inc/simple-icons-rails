@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "lib/simple-icons-rails/version"
+require_relative "lib/simple_icons_rails/version"
 
 Gem::Specification.new do |spec|
   spec.name = "simple-icons-rails"
@@ -18,9 +18,6 @@ Gem::Specification.new do |spec|
   spec.metadata["source_code_uri"] = "https://github.com/the-pew-inc/simple-icons-rails"
   spec.metadata["changelog_uri"] = "https://github.com/the-pew-inc/simple-icons-rails/blob/main/CHANGELOG.md"
 
-  # Support testing with mini-test
-  spec.add_development_dependency "minitest"
-
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
   spec.files = Dir.chdir(__dir__) do
@@ -34,12 +31,14 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.files = [
-    "lib/simple-icons-rails.rb",
-    "lib/simple-icons-rails/version.rb"
+    "lib/simple_icons_rails.rb",
+    "lib/simple_icons_rails/version.rb"
   ]  
 
   spec.add_runtime_dependency "rails", ">= 5.0", "< 8.0"
+  # spec.add_dependency "actionview"
   spec.add_development_dependency "bundler", "~> 2.0"
+  spec.add_development_dependency "minitest"
 
 
   # Uncomment to register a new dependency of your gem

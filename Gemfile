@@ -10,4 +10,7 @@ gem "railties"
 
 group :development, :test do
   gem "minitest"
+  gem "actionview", "~> 7.0.0"
 end
+
+gem "simplecov", require: false, group: :test
