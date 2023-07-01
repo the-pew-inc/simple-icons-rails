@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    simple-icons-rails (0.1.39)
+    simple-icons-rails (0.1.45)
       rails (>= 5.0, < 8.0)
 
 GEM

@@ -14,7 +14,7 @@ module SimpleIconsRails
   end
 end
 
-ActionView::Base.send(:include, SimpleIconsRails)
+ActionView::Base.include SimpleIconsRails
 
-puts 'SimpleIconsRails loaded' if defined?(SimpleIconsRails)
+# puts 'SimpleIconsRails loaded' if defined?(SimpleIconsRails)
 
