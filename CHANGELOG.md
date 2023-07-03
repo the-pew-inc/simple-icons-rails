@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+ - 0.2.23 - 2023-07-02: change the way tests are running
+
 ## [0.1.25] - 2023-06-27
 
 - Initial release
