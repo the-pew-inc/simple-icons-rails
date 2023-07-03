@@ -3,12 +3,16 @@
 source "https://rubygems.org"
 
 # Specify your gem's dependencies in simple_icons_rails.gemspec
-gemspec
+# gemspec
 
 gem "rake", "~> 13.0"
 
 group :development, :test do
-  gem "minitest"
+  gem "bundler"
   gem "rails", "~> 6.0.0"
   gem "actionview", "~> 6.0.0"
+  gem "minitest"
+  gem "uri"
 end
+
+gem "simplecov", require: false, group: :test

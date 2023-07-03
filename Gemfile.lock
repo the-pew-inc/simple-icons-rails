@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    simple_icons_rails (0.2.20)
+    simple_icons_rails (0.2.22)
       rails (>= 5.0, < 8.0)
       uri
 

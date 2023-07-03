@@ -8,7 +8,7 @@ gemspec
 gem "rake", "~> 13.0"
 
 group :development, :test do
-  gem "minitest"
+  # gem "minitest"
   gem "actionview", "~> 7.0.0"
 end
 
