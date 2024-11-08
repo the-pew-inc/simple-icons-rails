@@ -6,7 +6,7 @@
 version 0.1.x `gem 'simple-icons-rails', '~> 0.1.0'`<br/>
 version 0.2.x `gem 'simple_icons_rails', '~> 0.2.0'` 
 
-version 0.2.25 support Rails 8.
+version 0.2.25 support Rails 8. version 0.2.26 and above are using `simple-icons-rails` as using the _ was not followed through at RubyGem level. We also temporarily remove support to GPR.
 
 **In 2025 we will remove support to Rails 5 and Ruby 2.7** Versions following version 0.2.25 will support Rails 6 to 8 and Ruby 3.1 to 3.3 (or higher). If you need support for Rails version 5 use either 0.1.x or 0.2.22.
 
