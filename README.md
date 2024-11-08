@@ -5,6 +5,13 @@
 ## IMPORTANT
 version 0.1.x `gem 'simple-icons-rails', '~> 0.1.0'`<br/>
 version 0.2.x `gem 'simple_icons_rails', '~> 0.2.0'` 
+
+version 0.2.25 support Rails 8.
+
+**In 2025 we will remove support to Rails 5 and Ruby 2.7** Versions following version 0.2.25 will support Rails 6 to 8 and Ruby 3.1 to 3.3 (or higher). If you need support for Rails version 5 use either 0.1.x or 0.2.22.
+
+Thank you for your understanding.
+
 ## Description
 
 The Simple Icons Rails Gem is a Ruby gem designed for importing and using the icons from [Simple Icons](https://simpleicons.org/) in your Rails projects. Simple Icons provides a collection of more than 2500 SVG icons for various popular brands. <img src="https://img.shields.io/badge/dynamic/json?color=informational&label=icons&prefix=%20&logo=simpleicons&query=%24.icons.length&url=https%3A%2F%2Fraw.githubusercontent.com%2Fsimple-icons%2Fsimple-icons%2Fdevelop%2F_data%2Fsimple-icons.json" alt="Number of icons currently in the library"/>
