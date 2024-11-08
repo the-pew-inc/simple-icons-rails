@@ -1,14 +1,27 @@
+## [0.2.26] - 2024-11-08
+
+- Removing push to GPR
+- Changing naming conventions back to - instead of _ as changing on RubyGem was not approved.
+
+## [0.2.25] - 2024-11-08
+
+- Adding support to Rails 8. This gem now supports from Rails 5 up to version 8.
+- Updating the version number
+- Upgrading the README.md
+
 ## [Unreleased]
 
- - 0.2.23 - 2023-07-02: change the way tests are running
+- 0.2.23 - 2023-07-02: change the way tests are running
 
-## [0.1.25] - 2023-06-27
+## [0.2.22] - 2023-07-01
 
-- Initial release
+- Adding support for app/config/initializers/simple_icons.rb to override the default CDN
+- Updating the README file
+- Adding more test cases
 
-## [0.1.26] - 2023-06-27
+## [0.2.16] - 2023-07-01
 
-- Adding supported versions of Rails
+- Updating the README file
 
 ## [0.2.14] - 2023-06-30
 
@@ -18,18 +31,10 @@
 - Updated RBS
 - Updated README
 
-## [0.2.16] - 2023-07-01
+## [0.1.26] - 2023-06-27
 
-- Updating the README file
+- Adding supported versions of Rails
 
-## [0.2.22] - 2023-07-01
+## [0.1.25] - 2023-06-27
 
-- Adding support for app/config/initializers/simple_icons.rb to override the default CDN
-- Updating the README file
-- Adding more test cases
-
-## [0.2.25] - 2024-11-08
-
-- Adding support to Rails 8. This gem now supports from Rails 5 up to version 8.
-- Updating the version number
-- Upgrading the README.md
+- Initial release
