@@ -1,7 +1,8 @@
-## [0.2.26] - 2024-11-08
+## [0.2.27] - 2024-11-08
 
 - Removing push to GPR
 - Changing naming conventions back to - instead of _ as changing on RubyGem was not approved.
+- Updating the README file
 
 ## [0.2.25] - 2024-11-08
 
