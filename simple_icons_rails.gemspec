@@ -32,7 +32,7 @@ Gem::Specification.new do |spec|
   spec.files         = Dir["CHANGELOG.md", "LICENSE.md", "README.md", "lib/**/*"]
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency "rails", ">= 5.0", "< 8.0"
+  spec.add_runtime_dependency "rails", ">= 5.0", "< 9.0"
   # spec.add_dependency "actionview"
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "minitest"
