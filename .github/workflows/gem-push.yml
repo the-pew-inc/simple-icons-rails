@@ -14,15 +14,27 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        ruby-version: ["3.3", "3.3"]
+        ruby-version: ["3.3"]  # Updated to only support Ruby 3.3 and above
         rails-version: ["7", "8"]
+      fail-fast: false
+    timeout-minutes: 60  # Extend timeout if needed
 
     steps:
       - uses: actions/checkout@v3
+      
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ matrix.ruby-version }}
+      
+      - name: Cache gems
+        uses: actions/cache@v3
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
       - run: |
           BUNDLE_GEMFILE=gemfiles/Gemfile.rails${{ matrix.rails-version }} bundle install
 
@@ -40,10 +52,19 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Set up Ruby 3.3
+      - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.3
+          ruby-version: 3.3  # Set Ruby to 3.3 for building
+
+      - name: Cache gems
+        uses: actions/cache@v3
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
       - run: bundle install
 
       - name: Publish to GPR
