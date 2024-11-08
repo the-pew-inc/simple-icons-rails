@@ -28,7 +28,7 @@
 - Updating the README file
 - Adding more test cases
 
-  ## [0.2.25] - 2024-11-08
+## [0.2.25] - 2024-11-08
 
 - Adding support to Rails 8. This gem now supports from Rails 5 up to version 8.
 - Updating the version number
