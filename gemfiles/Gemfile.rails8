@@ -1,0 +1,18 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+# Specify your gem's dependencies in simple_icons_rails.gemspec
+# gemspec
+
+gem "rake", "~> 13.2"
+
+group :development, :test do
+  gem "bundler"
+  gem "rails", "~> 8.0.0"
+  gem "actionview", "~> 8.0.0"
+  gem "minitest"
+  gem "uri"
+end
+
+gem "simplecov", require: false, group: :test
