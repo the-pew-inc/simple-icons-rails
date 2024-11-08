@@ -14,21 +14,20 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        ruby-version: ["3.3"]  # Updated to only support Ruby 3.3 and above
+        ruby-version: ["3.3"]
         rails-version: ["7", "8"]
       fail-fast: false
-    timeout-minutes: 60  # Extend timeout if needed
+    timeout-minutes: 60
 
     steps:
-      - uses: actions/checkout@v3
-      
+      - uses: actions/checkout@v3  # Node.js 20 compatible
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ matrix.ruby-version }}
       
       - name: Cache gems
-        uses: actions/cache@v3
+        uses: actions/cache@v3  # Node.js 20 compatible
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
@@ -51,14 +50,14 @@ jobs:
       packages: write
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v3  # Node.js 20 compatible
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.3  # Set Ruby to 3.3 for building
+          ruby-version: 3.3
 
       - name: Cache gems
-        uses: actions/cache@v3
+        uses: actions/cache@v3  # Node.js 20 compatible
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
