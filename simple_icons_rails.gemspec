@@ -3,7 +3,7 @@
 require_relative "lib/simple_icons_rails/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "simple_icons_rails"
+  spec.name = "simple-icons-rails"
   spec.version = SimpleIconsRails::VERSION
   spec.authors = ["spaquet"]
   spec.email = ["176050+spaquet@users.noreply.github.com"]
