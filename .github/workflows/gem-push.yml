@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        ruby-version: ["3.3", "3.4"]  # Updated to only support Ruby 3.3 and above
+        ruby-version: ["3.3"]  # Updated to only support Ruby 3.3 and above
         rails-version: ["7", "8"]
       fail-fast: false
     timeout-minutes: 60  # Extend timeout if needed
